@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+
+body{
+  margin: 0px;
+  height: 140vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(Images/Japan.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Inter;
+  text-align: top;
+}
+
+.Bar{
+  position: relative;
+}
+
+.Bar{
+  position: absolute;
+  top: 0px;
+
+
+  padding: 20px;
+  height: 40px;
+  width: 100%;
+  background-color: 
+    rgba(255,255,255,0.25);
+  backdrop-filter: blur(10px);
+  box-shadow: 2px 4px 10px black;
+}
+
+#back{
+  position: absolute;
+  top: 15px;
+  left: 40px;
+}
+
+#back{
+  padding: 10px;
+  width: 60px;
+  height: 30px;
+  background-color: 
+    rgba(255,255,255,0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: none;
+}
+#back:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+
+.box{
+  position: absolute;
+  top: 140px;
+}
+
+.box{
+  padding: 20px;
+  width: 80%;
+  height:750px;
+  background-color: rgba(255,255,255,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+}
+#title{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#title{
+  padding: 10px;
+  width: 155px;
+  height: 50px;
+  background-color: rgba(255,255,255,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  font-size: 35px;
+  color: black;
+}
+
+img{
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+img{
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 1.15s ease;
+}
+img:hover{
+  transform: translateX(-50%) scale(1.1);
+  box-shadow: 2px 4px 20px black;
+}
+
+#info{
+  position: absolute;
+  top: 535px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#info{
+  padding: 10px;
+  width: 290px;
+  height: 90px;
+  background-color: rgba(255,255,255,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  text-align: center;
+}
+
+#recipe{
+  position: absolute;
+  top: 670px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#recipe{
+  padding: 20px;
+  padding-bottom: 45px;
+  width: 250px;
+  height: 20px;
+  background-color: rgba(255,255,255,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  color: black;
+  text-decoration: none;
+  font-size: 38px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+#recipe:active{
+  transform: translateX(-50%) scale(1);
+  box-shadow: inset 2px 4px 10px black;
+}

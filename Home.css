@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+
+
+.Text{
+  position: relative;
+}
+
+.Text{
+  position: absolute;
+  top: 100px;
+}
+
+.Text{
+  position: absolute;
+  width: 80%;
+  height: 450px;
+  padding: 20px;
+  background-image: url(Images/chopboard.png);
+  border-radius: 40px;
+  box-shadow: 2px 4px 10px black;
+  font-family: Inter;
+}
+
+#h1text{
+  padding: 10px;
+  background-color: rgba(255,255,255,0.08);
+  backdrop-filter: blur(0.8px);
+  border-radius: 30px;
+  box-shadow: 2px 4px 10px black;
+  border: 0.5px solid;
+  font-family: Inter;
+  color: white;
+}
+
+#h3text{
+  padding: 10px;
+  height: 40px;
+  background-color: rgba(255,255,255,0.08);
+  backdrop-filter: blur(0.8px);
+  border-radius: 30px;
+  box-shadow: 2px 4px 10px black;
+  border: 0.5px solid;
+  font-family: Inter;
+  color: white;
+  transition: 0.3s ease;
+}
+
+#h3text:hover{
+  transform: scale(1.1);
+  box-shadow: 2px 4px 15px black;
+}
+
+#h2discover{
+  padding: 10px;
+  width: 70%;
+  height: 190px;
+  background-image: url(Images/chopboard.png);
+  backdrop-filter: blur(20px);
+  border-radius: 30px;
+  box-shadow: 2px 4px 10px black;
+  font-family: Inter;
+  font-size: 25px;
+  color: white;
+  border: 0.5px solid;
+}
+
+#h2discover{
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+#discoverbtn{
+  padding: 20px;
+  width: 190px;
+  height: 90px;
+  background-color: rgba(255,255,255,0.08);
+  box-shadow: 2px 4px 10px black;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-family: Inter;
+  font-size: 23px;
+  transition: 0.15s ease;
+}
+#discoverbtn:active{
+  transform: translateX(-50%), scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+
+#discoverbtn{
+  position: absolute;
+  top: 310px;
+  left: 50%;
+  transform: translateX(-50%);
+}

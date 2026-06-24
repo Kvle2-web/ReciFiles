@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+
+
+#Discover{
+  margin: 0px;
+  height: 380vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(Images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Inter;
+  text-align: top;
+}
+
+
+.container{
+  position: relative;
+}
+
+
+.container{
+  padding: 10px;
+  width: 85%;
+  height: 500px;
+  background-image: url(Images/Philippines.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+}
+.container{
+  position: absolute;
+  top: 200px;
+}
+
+#h1discover{
+  padding: 20px;
+  width: 100px;
+  height: 15px;
+  background-image: url(Images/chopboard.png);
+  border-radius: 20px 20px 40px 20px;
+  box-shadow: 2px 4px 10px black;
+  color: white;
+  font-family: Inter;
+  font-size: 19px;
+}
+
+#h1discover{
+  position: absolute;
+  top: 75px;
+  left: 20px;
+}
+
+.Country{
+  padding: 10px;
+  width: 85%;
+  height: 40px;
+  background-color: 
+    rgba(255,255,255,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+}
+.Country{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Countrydesc{
+  padding: 10px;
+  width: 85%;
+  height: 70px;
+  background-color: 
+    rgba(255,255,255,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  text-align: center;
+}
+.Countrydesc{
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.h4dish1{
+  padding: 10px;
+  width: 60%;
+  height: 40px;
+  background-image: url(Images/adobo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.h4dish1:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+.h4dish1{
+  position: absolute;
+  top: 200px;
+}
+
+.h4dish2{
+  padding: 10px;
+  width: 60%;
+  height: 40px;
+  background-image: url(Images/sinigang.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.h4dish2:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+
+.h4dish2{
+  position: absolute;
+  top: 280px;
+}
+
+.h4dish3{
+  padding: 10px;
+  width: 60%;
+  height: 40px;
+  background-image: url(Images/tinola.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.h4dish3:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+.h4dish3{
+  position: absolute;
+  top: 360px;
+}
+
+
+/*Next page is for japan*/
+
+
+
+.container2{
+  position: relative;
+}
+
+
+.container2{
+  padding: 10px;
+  width: 85%;
+  height: 500px;
+  background-image: url(Images/Japan.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+}
+.container2{
+  position: absolute;
+  top: 800px;
+}
+
+.h4dish2-1{
+  padding: 10px;
+  width: 60%;
+  height: 40px;
+  background-image: url(Images/ramen.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.h4dish2-1:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+.h4dish2-1{
+  position: absolute;
+  top: 200px;
+}
+
+.h4dish2-2{
+  padding: 10px;
+  width: 60%;
+  height: 40px;
+  background-image: url(Images/sushi.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.h4dish2-2:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+
+.h4dish2-2{
+  position: absolute;
+  top: 280px;
+}
+
+.h4dish2-3{
+  padding: 10px;
+  width: 60%;
+  height: 40px;
+  background-image: url(Images/katsudon.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.h4dish2-3:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+.h4dish2-3{
+  position: absolute;
+  top: 360px;
+}
+
+
+
+/*Next page is for korea*/
+
+
+.container3{
+  position: relative;
+}
+
+
+.container3{
+  padding: 10px;
+  width: 85%;
+  height: 500px;
+  background-image: url(Images/Korea.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+}
+.container3{
+  position: absolute;
+  top: 1400px;
+}
+
+.h4dish3-1{
+  padding: 10px;
+  width: 60%;
+  height: 40px;
+  background-image: url(Images/bibimbap.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.h4dish3-1:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+.h4dish3-1{
+  position: absolute;
+  top: 200px;
+}
+
+.h4dish3-2{
+  padding: 10px;
+  width: 60%;
+  height: 40px;
+  background-image: url(Images/kimchi.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.h4dish3-2:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+
+.h4dish3-2{
+  position: absolute;
+  top: 280px;
+}
+
+.h4dish3-3{
+  padding: 10px;
+  width: 60%;
+  height: 40px;
+  background-image: url(Images/tteokbokki.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.h4dish3-3:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+.h4dish3-3{
+  position: absolute;
+  top: 360px;
+}
+
+
+/*Next page is for china*/
+
+
+.container4{
+  position: relative;
+}
+
+
+.container4{
+  padding: 10px;
+  width: 85%;
+  height: 500px;
+  background-image: url(Images/China.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+}
+.container4{
+  position: absolute;
+  top: 2000px;
+}
+
+.h4dish4-1{
+  padding: 10px;
+  width: 60%;
+  height: 40px;
+  background-image: url(Images/pekingduck.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.h4dish4-1:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+.h4dish4-1{
+  position: absolute;
+  top: 200px;
+}
+
+.h4dish4-2{
+  padding: 10px;
+  width: 60%;
+  height: 40px;
+  background-image: url(Images/xiaolongbao.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.h4dish4-2:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+
+.h4dish4-2{
+  position: absolute;
+  top: 280px;
+}
+
+.h4dish4-3{
+  padding: 10px;
+  width: 60%;
+  height: 40px;
+  background-image: url(Images/kungpaochicken.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px black;
+  transition: 0.3s ease;
+  text-align: center;
+  font-size: 23px;
+  color: black;
+}
+
+.h4dish4-3:active{
+  transform: scale(0.9);
+  box-shadow: inset 2px 4px 10px black;
+}
+.h4dish4-3{
+  position: absolute;
+  top: 360px;
+}
+.h4dish4-3{
+  white-space: nowrap;
+}
